@@ -1,0 +1,1 @@
+CREATE IN users FIELDS (login, password, currentLevel) VALUES ("admin", "password", "ADMIN")
