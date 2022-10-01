@@ -1,8 +1,4 @@
 # RainDB 
-### A system for SKU information
-### A [CINDI](https://github.com/ultasun/cindi) demonstration
-
-# Overview
 RainDB is a system for SKU information, mapping physical objects to physical containers. Parent-child relationships can be used to establish an organizational tree.  A USB barcode scanner would make this application a lot more fun to use! 
 
 # Why
