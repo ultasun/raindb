@@ -1,5 +1,5 @@
-create table users (id integer primary key autoincrement, login text, password text, currentLevel text);
+CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, login TEXT, password TEXT, currentLevel TEXT);
 
-create table objects (id integer primary key autoincrement, scannable text, container_scannable text, quantity text, buy_cost text, sell_cost text, expiration_date text, payload text);
+CREATE TABLE objects (id INTEGER PRIMARY KEY AUTOINCREMENT, scannable TEXT, container_scannable TEXT, quantity TEXT, buy_cost TEXT, sell_cost TEXT, expiration_date TEXT, payload TEXT);
 
-create table containers (id integer primary key autoincrement, parent_id text, scannable text, payload text);
+CREATE TABLE containers (id INTEGER PRIMARY KEY AUTOINCREMENT, parent_id TEXT, scannable TEXT, payload TEXT);
